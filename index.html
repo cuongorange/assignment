@@ -12,91 +12,121 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="lg:container lg:mx-auto">
     <header class="header">
-      <div class="header-top">
-        <a href="">
-          <img src="logo (1).png" alt=" ">
-        </a>
-      </div>
-      <div class="header-main">
-        <ul class="menu">
-          <li><a href="">Trang chủ</a></li>
-          <li><a href="">Tuyển sinh</a></li>
-          <li><a href="">Chương trình đào tạo</a></li>
-          <li><a href="">Góc sinh viên</a></li>
-          <li><a href="">Tuyển sinh</a></li>
-        </ul>
-        <form action="" class="from-search">
-          <input type="text" class="input">
-          <input type="submit" value="Tìm kiếm " class="search">
-        </form>
-      </div>
+        <div class="bg-indigo-900 ">
+            <a href="">
+                <img class="p-8 pl-96" src="../Assignment/img/logo (1).png" alt=" ">
+            </a>
+        </div>
+        <div class="bg-amber-500 flex ">
+            <ul class="flex space-x-3 pl-6 m-1">
+                <li><a href="" class="hover:underline hover:text-white">Trang chủ</a></li>
+                <li><a href="" class="hover:underline hover:text-white">Tuyển sinh</a></li>
+                <li><a href="" class="hover:underline hover:text-white"> Chương trình đào tạo</a></li>
+                <li><a href="" class="hover:underline hover:text-white">Góc sinh viên</a></li>
+                <li><a href="" class="hover:underline hover:text-white">Tuyển sinh</a></li>
+            </ul>
+            <form action="" class="flex pl-48 space-x-4">
+                <input type="text" class="w-15px h-6 mt-2">
+                <input type="submit" value="Tìm kiếm "
+                    class="text-white text-xs bg-indigo-900 border-2 border-white w-20 h-6 m-2 hover:bg-indigo-600">
+            </form>
+        </div>
     </header>
+    <br>
     <div class="banner">
-      <!--banner-->
-      <img class="img-fluid" src="banner1.jpg" alt="">
+        <!--banner-->
+        <img style="width:1024px;" class="w-max" src="../Assignment/img/banner1.jpg" alt="">
+    </div>
+    <br>
+    <div class="news">
+        <!--tin tức học tập-->
+        <h2 class="text-xl font-bold">Tin tức học tập</h2>
+        <br>
+        <div class="grid grid-cols-3 gap-4">
+            <!--hàng-->
+            <div class=" border border-solid border-black ">
+                <!--cột 1-->
+                <div class="p-8"> 
+                    <a href=""><img class="w-max" src="../Assignment/img/123.jpg" alt=""></a>
+                    <h3 class="font-bold text-amber-600 text-sm"><a href="">Vinh danh 295 sinh viên FPT
+                            Polytechnic học kỳ Spring 2018</a></h3>
+                    <p class="">Tối ngày 16/06/2018, Cao đẳng FPT Polytechnic Hà Nội đã tổ chức lễ tôn
+                        vinh "Ong vàng Poly",tuyên dương 295 cá nhân và tập thể có thành tích xuất sắc trong học
+                        tập cũng như hoạt</p>
+                </div>
+            </div>
+            <div class="border border-solid border-black ">
+                <!--cột 2-->
+                <div class="p-8"> 
+
+                <a href=""><img class="img-fluid" src="../Assignment/img/224.jpg" alt=""></a>
+                <h3 class="font-bold text-amber-600"><a href="">Sinh viên có khối ngành Kinh tế học cách "chạm"
+                        vào cảm xúc</a></h3>
+                <p>Với sự tham gia của chuyên gia trong lĩnh vực kinh doanh, chương trình đã thu hút đông đảo
+                    sinh viên Cao đẳng FPT Polytechnic tham dự. Đặc biệt các bạn sinh viên bị lôi cuốn bởi</p>
+            </div></div>
+
+            <div class="border border-solid border-black column">
+                <!--cột 3-->
+                <div class="p-8"> 
+
+                <a href=""><img class="img-fluid" src="../Assignment/img/tin tức.jpg" alt=""></a>
+                <h3 class="font-bold text-amber-600"><a href="">Sinh viên FPoly trải nghiệm thực tế tại Mường
+                        Thanh Luxury</a></h3>
+                <p>Với triết lý đào tạo "Thực học - Thực nghiệp", Cao đẳng FPT Polytechnic Đà Nẵng Thường xuyên
+                    tổ chức cho sinh viên tham quan các đơn vị doanh nghiệp</p>
+            </div></div>
+        </div>
     </div>
     <div class="news">
-      <!--tin tức học tập-->
-      <h2 class="title">Tin tức học tập</h2>
-      <div class="row">
-        <!--hàng-->
-        <div class="column">
-          <!--cột 1-->
-          <a href=""><img class="img-fluid" src="123.jpg" alt=""></a>
-          <h3><a href="">Vinh danh 295 sinh viên FPT Polytechnic học kỳ Spring 2018</a></h3>
-          <p>Tối ngày 16/06/2018, Cao đẳng FPT Polytechnic Hà Nội đã tổ chức lễ tôn vinh "Ong vàng Poly",tuyên dương 295
-            cá nhân và tập thể có thành tích xuất sắc trong học tập cũng như hoạt</p>
+        <br>
+        <!--Hoạt động-->
+        <h2 class="text-xl font-bold">Hoạt động sinh viên </h2>
+        <br>
+        <div class="grid grid-cols-3 gap-4">
+            <!--hàng-->
+            <div class="border border-solid border-black ">
+                <div class="p-8"> 
+
+                <!--cột 1-->
+                <a href="###"><img class="img-fluid" src="../Assignment/img/123.jpg" alt=""></a>
+                <h3 class="font-bold text-amber-600"><a href="">Vinh danh 295 sinh viên FPT Polytechnic học kỳ
+                        Spring 2018</a></h3>
+                <p>Tối ngày 16/06/2018, Cao đẳng FPT Polytechnic Hà Nội đã tổ chức lễ tôn vinh "Ong vàng
+                    Poly",tuyên dương 295 cá nhân và tập thể có thành tích xuất sắc trong học tập cũng như hoạt
+                </p>
+            </div></div>
+
+            <div class="border border-solid border-black ">
+                <!--cột 2-->
+                <div class="p-8"> 
+
+                <a href=""><img class="img-fluid" src="2../Assignment/img/224.jpg" alt=""></a>
+                <h3 class="font-bold text-amber-600"><a href="">Sinh viên có khối ngành Kinh tế học cách "chạm"
+                        vào cảm xúc</a></h3>
+                <p>Với sự tham gia của chuyên gia trong lĩnh vực kinh doanh, chương trình đã thu hút đông đảo
+                    sinh viên Cao đẳng FPT Polytechnic tham dự. Đặc biệt các bạn sinh viên bị lôi cuốn bởi</p>
+            </div></div>
+            <div class="border border-solid border-black ">
+                <div class="p-8"> 
+
+                <!--cột 3-->
+                <a href=""><img class="img-fluid" src="../Assignment/img/tin tức.jpg" alt=""></a>
+                <h3 class="font-bold text-amber-600"><a href="">Sinh viên FPoly trải nghiệm thực tế tại Mường
+                        Thanh Luxury</a></h3>
+                <p>Với triết lý đào tạo "Thực học - Thực nghiệp", Cao đẳng FPT Polytechnic Đà Nẵng Thường xuyên
+                    tổ chức cho sinh viên tham quan các đơn vị doanh nghiệp</p>
+                    </div>
+            </div>
         </div>
-        <div class="column">
-          <!--cột 2-->
-          <a href=""><img class="img-fluid" src="224.jpg" alt=""></a>
-          <h3><a href="">Sinh viên có khối ngành Kinh tế học cách "chạm" vào cảm xúc</a></h3>
-          <p>Với sự tham gia của chuyên gia trong lĩnh vực kinh doanh, chương trình đã thu hút đông đảo sinh viên Cao
-            đẳng FPT Polytechnic tham dự. Đặc biệt các bạn sinh viên bị lôi cuốn bởi</p>
-        </div>
-        <div class="column">
-          <!--cột 3-->
-          <a href=""><img class="img-fluid" src="tin tức.jpg" alt=""></a>
-          <h3><a href="">Sinh viên FPoly trải nghiệm thực tế tại Mường Thanh Luxury</a></h3>
-          <p>Với triết lý đào tạo "Thực học - Thực nghiệp", Cao đẳng FPT Polytechnic Đà Nẵng Thường xuyên tổ chức cho
-            sinh viên tham quan các đơn vị doanh nghiệp</p>
-        </div>
-      </div>
     </div>
-    <div class="news">
-      <!--Hoạt động-->
-      <h2 class="title">Hoạt động sinh viên </h2>
-      <div class="row">
-        <!--hàng-->
-        <div class="column">
-          <!--cột 1-->
-          <a href="###"><img class="img-fluid" src="123.jpg" alt=""></a>
-          <h3><a href="">Vinh danh 295 sinh viên FPT Polytechnic học kỳ Spring 2018</a></h3>
-          <p>Tối ngày 16/06/2018, Cao đẳng FPT Polytechnic Hà Nội đã tổ chức lễ tôn vinh "Ong vàng Poly",tuyên dương 295
-            cá nhân và tập thể có thành tích xuất sắc trong học tập cũng như hoạt</p>
-        </div>
-        <div class="column">
-          <!--cột 2-->
-          <a href=""><img class="img-fluid" src="224.jpg" alt=""></a>
-          <h3><a href="">Sinh viên có khối ngành Kinh tế học cách "chạm" vào cảm xúc</a></h3>
-          <p>Với sự tham gia của chuyên gia trong lĩnh vực kinh doanh, chương trình đã thu hút đông đảo sinh viên Cao
-            đẳng FPT Polytechnic tham dự. Đặc biệt các bạn sinh viên bị lôi cuốn bởi</p>
-        </div>
-        <div class="column">
-          <!--cột 3-->
-          <a href=""><img class="img-fluid" src="tin tức.jpg" alt=""></a>
-          <h3><a href="">Sinh viên FPoly trải nghiệm thực tế tại Mường Thanh Luxury</a></h3>
-          <p>Với triết lý đào tạo "Thực học - Thực nghiệp", Cao đẳng FPT Polytechnic Đà Nẵng Thường xuyên tổ chức cho
-            sinh viên tham quan các đơn vị doanh nghiệp</p>
-        </div>
-      </div>
-    </div>
-    <footer>
-      <span>TÊN SINH VIÊN</span>
+    <br>
+    <footer class="bg-indigo-900">
+        <div style="text-align: center;" class="text-white px-48 h-10 pt-2"> Nguyễn Quốc Cường </div>
     </footer>
-  </div>
+</div>
 
   </div>
   <script type="module" src="./main.js"></script>
