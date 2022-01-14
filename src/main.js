@@ -1,8 +1,7 @@
 
 import Navigo from 'navigo';
-import Footer from './components/footer';
-import Header from './components/header';
 import AboutPage from './pages/about';
+
 import HomePage from './pages/home';
 
 const router = new Navigo ("/", {linksSelector:"a"});
